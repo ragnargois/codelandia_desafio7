@@ -1,9 +1,9 @@
-<h1 align="center">Loki - Codelândia | Desafio 06</h1><br>
+<h1 align="center">Projeto Valorant - Codelândia | Desafio 06</h1><br>
 
 ![image](/preview/preview.png)<br><br>
 
 ## 📃 Sobre
-**Projeto Valorant- Codelândia | Desafio 7** 
+**Projeto Valorant - Codelândia | Desafio 7** 
 O desafio 6 da série de atividades na Comunidade Codelândia, foi criar uma página da séria da marvel Loki,
 nesse projeto segue as especificações da seguinte UI. <br><br>
 
