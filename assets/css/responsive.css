@@ -1,0 +1,123 @@
+/* ------- MOBILE ------- */
+
+@media screen and (min-width: 360px) and (max-width:767px) {
+    .bg {
+        position: relative;
+    }
+
+    .bg-black {
+        background-color: var(--dark-10);
+        height: 100vh;
+        clip-path: polygon(100% 0, 0% 100%, 0 0);
+    }
+
+    header {
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 24px;
+    }
+
+    header .valo {
+        width: 40px;
+    }
+
+    header .riot {
+        width: 60px;
+    }
+
+    header .share {
+        width: 24px;
+    }
+
+    .left {
+        position: absolute;
+        z-index: 2;
+        top: 200px;
+        left: 33%;
+    }
+
+    .left .logo {
+        display: none;
+    }
+
+    .left .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .left .cards .agent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        display: none;
+    }
+
+    footer {
+        position: fixed;
+        z-index: 3;
+        bottom: 2; 
+        padding-right: 5px;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1219px) {
+
+    header {
+        padding: 40px 60px;
+    }
+
+    .left {
+        top: 240px;
+        left: 60px;
+    }
+
+    .right {
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+
+    .right .back {
+        width: 65%;
+    }
+
+    .right .weapon {
+        right: 250px;
+        bottom: 240px;
+    }
+}
+
+@media screen and (min-width: 1220px) and (max-width:1550px) {
+    .left {
+        top: 180px;
+        left: 120px;
+    }
+
+    .right .back {
+        width: 70%;
+    }
+
+    .right .weapon {
+        right: 260px;
+        bottom: 250px;
+    }
+
+}
